@@ -1,0 +1,18 @@
+.coinlist{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom:100px;
+}
+
+.coinlist-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tablebody-row:hover{
+    cursor: pointer;
+    background: rgb(218, 218, 218);
+}

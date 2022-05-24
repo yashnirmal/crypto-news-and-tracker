@@ -1,0 +1,28 @@
+.bottom-footer *{
+    color: white;
+}
+.bottom-footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: auto;
+    padding: 2%;
+    background-color: blue;
+}
+
+.footer-title{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.link-containers{
+    display: flex;
+    flex-direction: column;
+}
+
+.span-heading{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+

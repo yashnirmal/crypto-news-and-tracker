@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import Exchange from './components/Exchange';
+import Navbar from './components/Navbar'
+import Newscontainer from './components/Newscontainer';
+import {BrowserRouter,Routes,Route,Navigate,} from "react-router-dom";
+import Bottom from './components/Bottom';
+import SingleCoin from './components/SingleCoin';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar/>
+
+      <Routes>
+        <Route path="/" element={<Exchange/>} exact />
+        <Route path="/news" element={<Newscontainer/>} />
+        <Route path="/crypto" element={<Navigate replace to="/"/>} />
+        <Route path="/coin/:id" element={<SingleCoin /> } />
+      </Routes>
+      
+      <Bottom/>
+    </>
   );
 }
 

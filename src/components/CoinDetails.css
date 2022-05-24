@@ -1,0 +1,24 @@
+.coindetails-div{
+    display: flex;
+    flex-direction: column;
+    align-items :center;
+    /* justify-content: center; */
+    font-size: 1.4rem;
+    box-sizing:border-box;
+    padding: 30px;
+
+    border-right: 2px solid lightgray;
+}
+
+.coin-data-div{
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.description-span{
+    margin-top: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,43 @@
+.newscontainer{
+    max-width: 1400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.news-container-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 100px;
+}
+
+
+/* Radio Buttons */
+.topic-radios{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.topic-radios input[type="radio"] {
+    display: none;
+}
+
+.topic-radios label {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    color: rgb(190, 190, 190);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(196, 196, 196);
+    
+}
+
+.topic-radios input[type="radio"]:checked+label {
+    background-color: rgb(111, 111, 215);
+    border: 2px solid rgb(184, 184, 219);
+    color: white;
+}

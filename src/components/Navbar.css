@@ -1,0 +1,33 @@
+.navbar{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    box-shadow: 0 3px 10px rgb(0, 0, 0,0.3) ;
+
+
+    --margin-links: 50px;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+.links{
+    font-size: var(--font-size);
+}
+
+.links>a{
+    color: blue;
+    padding: 5px;
+}
+
+.link-news{
+    margin-right: var(--margin-links);
+}
+.link-news{
+    margin-right: var(--margin-links);
+}

@@ -1,0 +1,6 @@
+.siglecoin-div{
+    display : grid;
+    grid-template-columns: 1fr 2.5fr;
+    min-height:90vh;
+    max-height:fit-content;
+}
