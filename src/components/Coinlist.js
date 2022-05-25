@@ -12,7 +12,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TableBody from '@material-ui/core/TableBody';
 import TableRow from '@material-ui/core/TableRow';
 import TableCell from '@material-ui/core/TableCell';
-import {useNavigate} from 'react-router-dom'
+import {useNavigate} from 'react-router-dom';
 
 export default function Coinlist() {
 

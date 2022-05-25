@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./Bottom.css";
+import {useNavigate} from 'react-router-dom';
 
 export default function Bottom() {
+
+  const navigate = useNavigate();
+
   return (
     <footer className="bottom-footer">
       <div>
@@ -23,7 +27,7 @@ export default function Bottom() {
 
       <div className="link-containers">
         <span className="span-heading">Hot Coins</span>
-        <Link to="/coin/bitcoin" style={{ marginTop: 30, marginBottom: 10 }}>
+        <Link to="/coin/bitcoin" style={{ marginTop: 30, marginBottom: 10 }}  >
           Bitcoin
         </Link>
         <Link to="/coin/ethereum" style={{ marginBottom: 10 }}>
