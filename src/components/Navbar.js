@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export default function Navbar(props) {
   return (
     <div className="navbar">
-      <Link className="title" to="/">CryptoNews</Link>
+      <Link className="title" to="/">CryptoTracker</Link>
 
       <div className="links">
         <Link to="/news" className="link-news">

@@ -11,7 +11,7 @@ export default function Bottom() {
     <footer className="bottom-footer">
       <div>
         <Link className="footer-title" to="/crypto">
-          CryptoNews
+          CryptoTracker
         </Link>
       </div>
 
