@@ -15,7 +15,7 @@ export default function Newsitem(props) {
         />
       </div>
       <div className="news-content-div">
-        <p className="news-title">{props.title.substring(0, 90) + " ..."}</p>
+        <a href={props.newsurl} target="_blank" className="news-title">{props.title.substring(0, 90) + " ..."}</a>
         <p className="news-desc">
           {props.description.substring(0,180) + " ..."}
         </p>

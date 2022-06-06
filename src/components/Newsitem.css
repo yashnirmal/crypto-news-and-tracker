@@ -8,6 +8,7 @@
     box-shadow: 0 0 20px rgb(0, 0, 0,0.2);
 }
 
+
 .news-image{
     border-top-left-radius: var(--border-radius);
     border-top-right-radius: var(--border-radius);
@@ -15,6 +16,8 @@
     height: 250px;
     object-fit: cover;
 }
+
+
 .news-image:hover{
     cursor : pointer;
 }
@@ -32,6 +35,12 @@
 
 .news-title{
     font-weight: bold;
+    color: black;
+    transition: 0.2s;
+}
+
+.news-title:hover{
+    color: blue;
 }
 
 .news-desc{
