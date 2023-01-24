@@ -44,7 +44,7 @@ export default function CoinDetails(props) {
           <CircularProgress />
         ) : (
           <div className="coindetails-div">
-            <img src={coinData.image.large} alt="crypto logo" />
+            <img src={coinData.image?.large} alt="crypto logo" />
             <h1 style={{ fontSize: "3rem", marginTop: 20 }}>{coinData.name}</h1>
             <span className="description-span">
               {coinData.description.en.substring(0, 500)}
